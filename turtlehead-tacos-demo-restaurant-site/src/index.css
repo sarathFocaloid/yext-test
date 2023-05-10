@@ -1,0 +1,240 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(Dropdown.css);
+
+:root{
+  margin: 10px;
+  --main-width: 10px;
+}
+
+.dot{
+  height: 8px;
+  width: 8px;
+  background-color: #01b938;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.star {
+  color: #f7cc45;
+  border-color: #f7cc45;
+
+}
+
+.name-vodafonee {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 2.5rem; 
+line-height: 2.5rem;
+}
+
+.name-vodafone {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 2.5vw; 
+line-height: 2vh;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+
+.arrow {
+  color: #EF4444;
+  height: 34px;
+  width: 34px;
+
+}
+
+/* .nav-bar{
+  display: grid;
+
+} */
+
+.logo-image{
+  width: 12;
+  /* height: auto; */
+}
+/* @media(max-width: 700px) {
+  .logo-image {
+    min-width: 12;
+  }
+} */
+
+.address-text {
+  font-size: 40px;
+  line-height: 7vh;
+  font-weight: 90;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5rem;
+  grid-template-rows: .4fr .5fr .2fr .1fr;
+  padding-left: 5%;
+  /* grid-auto-rows: 50px; */
+  /* height: 100vh; */
+  /* width: clamp(300px, 1.5vw, 500px) do for font */
+  
+  /* justify-content: center; */
+  /* align-content: stretch; */
+  /* margin: var(--main-width); */
+  grid-template-areas: 
+  "nav-bar nav-bar nav-bar nav-bar"
+  "shop-address shop-time shop-image shop-image" 
+  "contact shop-time shop-image shop-image"
+  "buttons rate shop-image shop-image";
+  /* grid-column-gap: 30px; */
+}
+
+.nav-bar {
+  display: flex;
+  padding-top: 2%;
+  grid-area: nav-bar;
+}
+
+.shop-address {
+  /* grid-row: 1/4; */
+  /* display: flex; */
+  /* justify-content: center; */
+  grid-area: shop-address;
+
+  /* grid-column-start:1; */
+  /* grid-column-end:-1; */
+
+}
+.shop-time {
+
+  /* grid-row: 1/3; */
+ grid-area: shop-time;
+}
+.shop-image {
+  grid-area: shop-image;
+  /* grid-column: span 2; */
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.buttons {
+  grid-area: buttons;
+}
+
+.rate {
+  grid-area: rate;
+}
+
+
+@media(max-width:950px){
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr 1.5fr .5fr .1fr 3fr;
+    height: 100vh;
+    grid-template-areas: 
+    "nav-bar nav-bar"
+    "shop-address shop-time" 
+    "contact shop-time"
+    "buttons rate"
+    "shop-image shop-image";
+
+  }
+  
+}
+
+@media(max-width:760px){
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr 1.5fr .5fr .1fr 3fr;
+    grid-template-areas: 
+    "nav-bar nav-bar"
+    "shop-address shop-time" 
+    "contact shop-time"
+    "buttons rate"
+    "shop-image shop-image";
+
+  }
+  
+}
+
+
+/* style for locator */
+
+
+
+.locator-map{
+  position: relative;
+  background-color: #f0f0f0;
+  z-index: 1;
+}
+
+/* .locator-container {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .5rem;
+  grid-template-rows: 1fr;
+  /* grid-auto-rows: 50px; */
+  /* height: 100vh; */
+  /* width: clamp(300px, 1.5vw, 500px) do for font */
+  
+  /* justify-content: center; */
+  /* align-content: stretch; */
+  /* margin: var(--main-width); */
+  /* grid-template-areas: 
+ "search-bar"
+ "filter-bar" */
+
+/* }  */
+
+.locator-container {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.locator-search-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #01b938;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-areas: 
+ "search-bar"
+ "filter-bar" 
+}
+
+.locator-search-bar {
+  grid-area: search-bar;
+}
+ .filter {
+  grid-area: filter-bar;
+  
+ }
+
+.input-box {
+  border: none;
+  border-bottom: 1px solid #141414;
+  outline: none;
+  width: 80vw;
+}
+
+.input-box:focus {
+  border: 2px solid #141414;
+}
+.centered-container {
+  @apply mx-auto px-5 md:px-14 max-w-screen-xl;
+}
+
+.section {
+  @apply mt-8 mb-16;
+}
+
+.primary-cta {
+  @apply bg-sky-500 hover:bg-sky-600;
+}
+
+.secondary-cta {
+  @apply bg-sky-700 hover:bg-sky-800;
+}

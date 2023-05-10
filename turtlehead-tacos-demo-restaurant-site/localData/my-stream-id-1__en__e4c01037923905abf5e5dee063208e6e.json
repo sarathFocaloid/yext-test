@@ -1,0 +1,118 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"address": {
+		"city": "Chicago",
+		"countryCode": "US",
+		"line1": "2100 N Elston Ave",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Illinois",
+		"postalCode": "60614",
+		"region": "IL"
+	},
+	"businessId": 3199205,
+	"description": "Turtlehead Tacos is a taco restaurant chain located in Chicago, IL. We're serving all your favorite menu items, from classic tacos and burritos, to new favorites like the Turtlehead Taco Ultimate Taco and Cheesy Turtlehead Deluxe. Order ahead online or on the mobile app for pick up at the restaurant or get it delivered. 2100 N Elston Ave",
+	"geocodedCoordinate": {
+		"latitude": 41.918962,
+		"longitude": -87.669866
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location10",
+	"key": "0:location:knowledgeGraph:37927957:en",
+	"locale": "en",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Turtlehead Tacos",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "location10-bucktown",
+	"uid": 37927957
+}

@@ -1,0 +1,177 @@
+{
+  "bundlePaths": {
+    "location": "assets/server/location.34579324.js",
+    "locator": "assets/server/locator.03b2ef71.js",
+    "robots": "assets/server/robots.c5a02b42.js",
+    "turtlehead-tacos": "assets/server/static.05a16dc9.js"
+  },
+  "projectFilepaths": {
+    "templatesRoot": "src/templates",
+    "distRoot": "dist",
+    "hydrationBundleOutputRoot": "dist/hydration_templates",
+    "serverBundleOutputRoot": "dist/assets/server"
+  },
+  "bundlerManifest": {
+    "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js": {
+      "file": "assets/renderer/templateRenderer.js",
+      "src": "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js",
+      "isEntry": true,
+      "imports": [
+        "_preload-helper-094304c8.js",
+        "_index-1b0cdb6b.js",
+        "_server.browser-6349b8e8.js"
+      ]
+    },
+    "src/public/yext-favicon.ico": {
+      "file": "assets/static/yext-favicon-d1bff837.ico",
+      "src": "src/public/yext-favicon.ico"
+    },
+    "src/assets/images/tacos-1.avif": {
+      "file": "assets/static/tacos-1-06a03ffb.avif",
+      "src": "src/assets/images/tacos-1.avif"
+    },
+    "src/templates/location.tsx": {
+      "file": "assets/server/location.34579324.js",
+      "src": "src/templates/location.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js",
+        "_yext-favicon-096402c3.js",
+        "_browser-ponyfill-18aed945.js",
+        "_index-536f3f1f.js",
+        "_index-d54c2171.js"
+      ]
+    },
+    "dist/hydration_templates/location.tsx": {
+      "file": "assets/hydrate/location.cce338dc.js",
+      "src": "dist/hydration_templates/location.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-d54c2171.js",
+        "src/templates/location.tsx",
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js",
+        "_yext-favicon-096402c3.js",
+        "_browser-ponyfill-18aed945.js",
+        "_index-536f3f1f.js"
+      ]
+    },
+    "src/templates/locator.tsx": {
+      "file": "assets/server/locator.03b2ef71.js",
+      "src": "src/templates/locator.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js",
+        "_browser-ponyfill-18aed945.js",
+        "_index-536f3f1f.js",
+        "_index-d54c2171.js",
+        "_server.browser-6349b8e8.js"
+      ],
+      "css": [
+        "assets/static/locator-bea1280a.css"
+      ]
+    },
+    "dist/hydration_templates/locator.tsx": {
+      "file": "assets/hydrate/locator.2a2dca3b.js",
+      "src": "dist/hydration_templates/locator.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-d54c2171.js",
+        "src/templates/locator.tsx",
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js",
+        "_browser-ponyfill-18aed945.js",
+        "_index-536f3f1f.js",
+        "_server.browser-6349b8e8.js"
+      ]
+    },
+    "src/templates/robots.ts": {
+      "file": "assets/server/robots.c5a02b42.js",
+      "src": "src/templates/robots.ts",
+      "isEntry": true
+    },
+    "src/templates/static.tsx": {
+      "file": "assets/server/static.05a16dc9.js",
+      "src": "src/templates/static.tsx",
+      "isEntry": true,
+      "imports": [
+        "_preload-helper-094304c8.js",
+        "_yext-favicon-096402c3.js",
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js"
+      ],
+      "dynamicImports": [
+        "_browser-ponyfill-18aed945.js"
+      ]
+    },
+    "dist/hydration_templates/static.tsx": {
+      "file": "assets/hydrate/static.4bcd47e6.js",
+      "src": "dist/hydration_templates/static.tsx",
+      "isEntry": true,
+      "imports": [
+        "_index-d54c2171.js",
+        "src/templates/static.tsx",
+        "_index-4bb572da.js",
+        "_index-1b0cdb6b.js",
+        "_preload-helper-094304c8.js",
+        "_yext-favicon-096402c3.js"
+      ]
+    },
+    "_preload-helper-094304c8.js": {
+      "file": "assets/static/preload-helper-094304c8.js"
+    },
+    "_index-1b0cdb6b.js": {
+      "file": "assets/static/index-1b0cdb6b.js"
+    },
+    "_server.browser-6349b8e8.js": {
+      "file": "assets/static/server.browser-6349b8e8.js",
+      "imports": [
+        "_index-1b0cdb6b.js"
+      ]
+    },
+    "_index-4bb572da.js": {
+      "file": "assets/static/index-4bb572da.js",
+      "imports": [
+        "_index-1b0cdb6b.js"
+      ],
+      "css": [
+        "assets/static/index-7678b5db.css"
+      ],
+      "assets": [
+        "assets/static/tacos-1-06a03ffb.avif"
+      ]
+    },
+    "_yext-favicon-096402c3.js": {
+      "file": "assets/static/yext-favicon-096402c3.js",
+      "assets": [
+        "assets/static/yext-favicon-d1bff837.ico"
+      ]
+    },
+    "_browser-ponyfill-18aed945.js": {
+      "file": "assets/static/browser-ponyfill-18aed945.js",
+      "isDynamicEntry": true,
+      "imports": [
+        "_index-1b0cdb6b.js"
+      ]
+    },
+    "_index-d54c2171.js": {
+      "file": "assets/static/index-d54c2171.js",
+      "imports": [
+        "_index-1b0cdb6b.js"
+      ]
+    },
+    "_index-536f3f1f.js": {
+      "file": "assets/static/index-536f3f1f.js"
+    },
+    "index.css": {
+      "file": "assets/static/index-7678b5db.css",
+      "src": "index.css"
+    },
+    "src/templates/locator.css": {
+      "file": "assets/static/locator-bea1280a.css",
+      "src": "src/templates/locator.css"
+    }
+  }
+}

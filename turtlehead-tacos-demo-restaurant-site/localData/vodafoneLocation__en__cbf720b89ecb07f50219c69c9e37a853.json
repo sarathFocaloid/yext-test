@@ -1,0 +1,154 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "vodafoneLocation",
+		"streamId": "vodafoneLocation",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"address": {
+		"city": "Hockenheim",
+		"countryCode": "US",
+		"line1": "Karlsruher Strasse 20",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Alabama",
+		"postalCode": "68766",
+		"region": "AL"
+	},
+	"businessId": 3199205,
+	"c_breadCrumb": [
+		"shop finder",
+		"All stores",
+		"Hockenheim",
+		"vodafone stores"
+	],
+	"c_navbarList": [
+		"highlight topics",
+		"your store",
+		"Rates",
+		"Current",
+		"services",
+		"Stores near you"
+	],
+	"c_officePhoto": {
+		"height": 1425,
+		"url": "https://a.mktgcdn.com/p-sandbox/N5hnZUsmuSZqCQjtO4-iFBhn3ofaZAwH-g-0f01meUM/1900x1425.jpg",
+		"width": 1900
+	},
+	"c_vodafoneLogo": {
+		"height": 144,
+		"url": "https://a.mktgcdn.com/p-sandbox/NVSZOupZoEbYHNzORfQRzptRo35mYZqyPLkaQTw4URQ/144x144.png",
+		"width": 144
+	},
+	"hours": {
+		"friday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"monday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "18:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "5499920681030782588",
+	"key": "0:vodafoneLocation:knowledgeGraph:38546980:en",
+	"locale": "en",
+	"mainPhone": "+4962052322170",
+	"meta": {
+		"entityType": {
+			"id": "ce_vodafoneShop",
+			"uid": 112527
+		},
+		"locale": "en"
+	},
+	"name": "Vodafone shop",
+	"photoGallery": [
+		{
+			"description": "logo",
+			"image": {
+				"height": 144,
+				"url": "https://a.mktgcdn.com/p-sandbox/NVSZOupZoEbYHNzORfQRzptRo35mYZqyPLkaQTw4URQ/144x144.png",
+				"width": 144
+			}
+		},
+		{
+			"image": {
+				"height": 1425,
+				"url": "https://a.mktgcdn.com/p-sandbox/N5hnZUsmuSZqCQjtO4-iFBhn3ofaZAwH-g-0f01meUM/1900x1425.jpg",
+				"width": 1900
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "vodafone-shop-5499920681030782588",
+	"uid": 38546980
+}

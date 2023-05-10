@@ -1,0 +1,35 @@
+{
+	"__": {
+		"name": "testing",
+		"staticPage": {
+			"plugin": {}
+		},
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"businessId": 3199205,
+	"key": "0:testing:knowledgeGraph:0:en",
+	"locale": "en",
+	"meta": {
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": ""
+}

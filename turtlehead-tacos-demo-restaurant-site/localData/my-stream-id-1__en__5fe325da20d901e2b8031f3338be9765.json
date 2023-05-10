@@ -1,0 +1,118 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"address": {
+		"city": "New York",
+		"countryCode": "US",
+		"line1": "60 W 23rd St",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "New York",
+		"postalCode": "10010",
+		"region": "NY"
+	},
+	"businessId": 3199205,
+	"description": "Turtlehead Tacos is a taco restaurant chain located in New York, NY. We're serving all your favorite menu items, from classic tacos and burritos, to new favorites like the Turtlehead Taco Ultimate Taco and Cheesy Turtlehead Deluxe. Order ahead online or on the mobile app for pick up at the restaurant or get it delivered. 60 W 23rd St",
+	"geocodedCoordinate": {
+		"latitude": 40.7425717,
+		"longitude": -73.9923639
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location6",
+	"key": "0:location:knowledgeGraph:37927940:en",
+	"locale": "en",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Turtlehead Tacos",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "location6-chelsea",
+	"uid": 37927940
+}

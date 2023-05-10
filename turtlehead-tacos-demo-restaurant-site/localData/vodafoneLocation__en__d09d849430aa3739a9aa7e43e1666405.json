@@ -1,0 +1,53 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "vodafoneLocation",
+		"streamId": "vodafoneLocation",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"address": {
+		"city": "Hockenheim",
+		"countryCode": "US",
+		"line1": "mock address",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Alabama",
+		"postalCode": "68766",
+		"region": "AL"
+	},
+	"businessId": 3199205,
+	"id": "321313945575903748",
+	"key": "0:vodafoneLocation:knowledgeGraph:40626090:en",
+	"locale": "en",
+	"mainPhone": "+4962052322178",
+	"meta": {
+		"entityType": {
+			"id": "ce_vodafoneShop",
+			"uid": 112527
+		},
+		"locale": "en"
+	},
+	"name": "vodafone shop",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 40626090
+}

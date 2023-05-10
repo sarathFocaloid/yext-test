@@ -1,0 +1,107 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "my-stream-id-1",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "locator",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "turtlehead-tacos",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "testing",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "vodafoneLocation",
+      "streamId": "vodafoneLocation",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "my-stream-id-1",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "mainPhone",
+        "description",
+        "hours",
+        "slug",
+        "geocodedCoordinate",
+        "services",
+        "c_cateringPhoneNumber"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en",
+          "es"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "vodafoneLocation",
+      "fields": [
+        "id",
+        "name",
+        "address",
+        "hours",
+        "slug",
+        "photoGallery",
+        "c_vodafoneLogo",
+        "c_navbarList",
+        "c_breadCrumb",
+        "c_officePhoto",
+        "mainPhone"
+      ],
+      "filter": {
+        "entityTypes": [
+          "ce_vodafoneShop"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en",
+          "es"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}

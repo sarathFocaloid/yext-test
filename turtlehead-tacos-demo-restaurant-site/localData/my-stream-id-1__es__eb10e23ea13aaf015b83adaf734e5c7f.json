@@ -1,0 +1,99 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "Miami",
+		"countryCode": "US",
+		"line1": "8450 S Dixie Hwy",
+		"localizedCountryName": "Estados Unidos",
+		"localizedRegionName": "Florida",
+		"postalCode": "33143",
+		"region": "FL"
+	},
+	"businessId": 3199205,
+	"geocodedCoordinate": {
+		"latitude": 25.693062,
+		"longitude": -80.3060756
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location16",
+	"key": "0:location:knowledgeGraph:37927963:es",
+	"locale": "es",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "es"
+	},
+	"name": "Turtlehead Tacos",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"uid": 37927963
+}

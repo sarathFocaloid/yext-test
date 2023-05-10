@@ -1,0 +1,64 @@
+{
+  "features": [
+    {
+      "name": "location",
+      "streamId": "my-stream-id-1",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "locator",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    },
+    {
+      "name": "turtlehead-tacos",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "my-stream-id-1",
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "address",
+        "mainPhone",
+        "description",
+        "hours",
+        "slug",
+        "geocodedCoordinate",
+        "services",
+        "c_cateringPhoneNumber"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "localization": {
+        "locales": [
+          "en",
+          "es"
+        ],
+        "primary": false
+      }
+    }
+  ]
+}

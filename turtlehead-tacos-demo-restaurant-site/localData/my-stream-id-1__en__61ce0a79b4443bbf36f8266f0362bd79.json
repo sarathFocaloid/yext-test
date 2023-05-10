@@ -1,0 +1,118 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_header": [
+			{
+				"label": "go to turtle websitr",
+				"uRL": "www.youtube.com"
+			}
+		],
+		"id": "8533801965747534575",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 111381
+			},
+			"locale": "en"
+		},
+		"uid": 38066719
+	},
+	"address": {
+		"city": "Miami",
+		"countryCode": "US",
+		"line1": "10760 NW 17th St",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "Florida",
+		"postalCode": "33172",
+		"region": "FL"
+	},
+	"businessId": 3199205,
+	"description": "Turtlehead Tacos is a taco restaurant chain located in Miami, FL. We're serving all your favorite menu items, from classic tacos and burritos, to new favorites like the Turtlehead Taco Ultimate Taco and Cheesy Turtlehead Deluxe. Order ahead online or on the mobile app for pick up at the restaurant or get it delivered. 10760 NW 17th St",
+	"geocodedCoordinate": {
+		"latitude": 25.789474,
+		"longitude": -80.370433
+	},
+	"hours": {
+		"friday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"holidayHours": [
+			{
+				"date": "2023-07-04",
+				"isClosed": true
+			}
+		],
+		"monday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"saturday": {
+			"openIntervals": [
+				{
+					"end": "20:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"tuesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		},
+		"wednesday": {
+			"openIntervals": [
+				{
+					"end": "19:00",
+					"start": "10:00"
+				}
+			]
+		}
+	},
+	"id": "location12",
+	"key": "0:location:knowledgeGraph:37927953:en",
+	"locale": "en",
+	"mainPhone": "+12129943900",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en"
+	},
+	"name": "Turtlehead Tacos",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "location12-doral",
+	"uid": 37927953
+}

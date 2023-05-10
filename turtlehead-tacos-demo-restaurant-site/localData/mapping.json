@@ -1,0 +1,32 @@
+{
+	"location": [
+		"my-stream-id-1__en__8079b80496b646f6d8671bf022fd6cc8.json",
+		"my-stream-id-1__en__0092160c6c6a8cad15e24c0db3b61d2b.json",
+		"my-stream-id-1__en__5fe325da20d901e2b8031f3338be9765.json",
+		"my-stream-id-1__en__afe6b1e92ccd0b6f372e519faea76b09.json",
+		"my-stream-id-1__en__5a28bf7e7fe166edcdbc7bb071eb933a.json",
+		"my-stream-id-1__en__61ce0a79b4443bbf36f8266f0362bd79.json",
+		"my-stream-id-1__en__54769271dcb3236093ace0e8198a21a8.json",
+		"my-stream-id-1__en__e4c01037923905abf5e5dee063208e6e.json",
+		"my-stream-id-1__en__27ea1af36b46d53872f30c269010c70f.json",
+		"my-stream-id-1__en__cee5bf6042df841b3eb3835f4466a802.json",
+		"my-stream-id-1__es__eb10e23ea13aaf015b83adaf734e5c7f.json",
+		"my-stream-id-1__en__eb10e23ea13aaf015b83adaf734e5c7f.json"
+	],
+	"locator": [
+		"cog-internal-feature-static-file-generation-locator__en__cfcd208495d565ef66e7dff9f98764da.json"
+	],
+	"robots": [
+		"cog-internal-feature-static-file-generation-robots__en__cfcd208495d565ef66e7dff9f98764da.json"
+	],
+	"testing": [
+		"cog-internal-feature-static-file-generation-testing__en__cfcd208495d565ef66e7dff9f98764da.json"
+	],
+	"turtlehead-tacos": [
+		"cog-internal-feature-static-file-generation-turtlehead-tacos__en__cfcd208495d565ef66e7dff9f98764da.json"
+	],
+	"vodafoneLocation": [
+		"vodafoneLocation__en__cbf720b89ecb07f50219c69c9e37a853.json",
+		"vodafoneLocation__en__d09d849430aa3739a9aa7e43e1666405.json"
+	]
+}
